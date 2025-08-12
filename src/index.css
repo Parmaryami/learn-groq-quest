@@ -2,59 +2,39 @@
 @tailwind components;
 @tailwind utilities;
 
-/* Educational platform design system - inspired by modern learning apps */
+/* Definition of the design system. All colors, gradients, fonts, etc should be defined here. 
+All colors MUST be HSL.
+*/
 
 @layer base {
   :root {
-    /* Core brand colors - educational theme with blues and greens */
     --background: 0 0% 100%;
-    --foreground: 220 15% 15%;
+    --foreground: 222.2 84% 4.9%;
 
     --card: 0 0% 100%;
-    --card-foreground: 220 15% 15%;
+    --card-foreground: 222.2 84% 4.9%;
 
     --popover: 0 0% 100%;
-    --popover-foreground: 220 15% 15%;
+    --popover-foreground: 222.2 84% 4.9%;
 
-    /* Primary - Educational blue for learning focus */
-    --primary: 212 100% 45%;
-    --primary-foreground: 0 0% 98%;
-    --primary-glow: 212 100% 55%;
+    --primary: 222.2 47.4% 11.2%;
+    --primary-foreground: 210 40% 98%;
 
-    /* Secondary - Warm success green for achievements */
-    --secondary: 145 63% 49%;
-    --secondary-foreground: 0 0% 98%;
+    --secondary: 210 40% 96.1%;
+    --secondary-foreground: 222.2 47.4% 11.2%;
 
-    /* Learning state colors */
     --muted: 210 40% 96.1%;
     --muted-foreground: 215.4 16.3% 46.9%;
 
-    --accent: 35 100% 55%;
-    --accent-foreground: 0 0% 98%;
+    --accent: 210 40% 96.1%;
+    --accent-foreground: 222.2 47.4% 11.2%;
 
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 210 40% 98%;
 
     --border: 214.3 31.8% 91.4%;
     --input: 214.3 31.8% 91.4%;
-    --ring: 212 100% 45%;
-
-    /* Quiz and progress colors */
-    --quiz-correct: 145 63% 49%;
-    --quiz-incorrect: 0 84.2% 60.2%;
-    --quiz-pending: 35 100% 55%;
-    --progress-bg: 210 40% 96.1%;
-
-    /* Gradients for engaging UI */
-    --gradient-primary: linear-gradient(135deg, hsl(212 100% 45%), hsl(212 100% 55%));
-    --gradient-success: linear-gradient(135deg, hsl(145 63% 49%), hsl(145 63% 59%));
-    --gradient-learning: linear-gradient(135deg, hsl(35 100% 55%), hsl(35 100% 65%));
-    
-    /* Shadows for depth */
-    --shadow-sm: 0 1px 2px 0 hsl(212 100% 45% / 0.05);
-    --shadow-md: 0 4px 6px -1px hsl(212 100% 45% / 0.1);
-    --shadow-lg: 0 10px 15px -3px hsl(212 100% 45% / 0.1);
-    --shadow-glow: 0 0 20px hsl(212 100% 55% / 0.3);
+    --ring: 222.2 84% 4.9%;
 
     --radius: 0.5rem;
 
